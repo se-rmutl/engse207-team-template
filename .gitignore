@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# environment and secrets (commit .env.example only)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# build output
+dist/
+build/
+coverage/
+.vite/
+
+# local data and logs
+pgdata/
+mongo-data/
+*.log
+npm-debug.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# draw.io backup files
+*.drawio.bkp
+*.drawio.dtmp
